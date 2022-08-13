@@ -10,9 +10,10 @@ public class App {
     private JTextArea noteBox;
     private JPanel panel1;
     private JList list1;
+    private UserData data;
 
     public App(){
-        System.out.println(FileSystemView.getFileSystemView().getDefaultDirectory().getPath());
+        data = new UserData();
     }
 
     public static void main(String[] args){
