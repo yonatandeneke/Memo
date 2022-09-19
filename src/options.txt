@@ -1,3 +1,0 @@
-name: Yonatan
-theme: light
-
